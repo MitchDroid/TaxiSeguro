@@ -1,10 +1,8 @@
-ALLforYOU android UI design
+<h1>ALLforYOU android UI design</h1>
 
-GuideBackgroundColorAnimation
+<h2>GuideBackgroundColorAnimation</h2>
 
 =====================================
-
-GuideBackgroundColorAnimation
 
 <img src=https://raw.githubusercontent.com/TaurusXi/GuideBackgroundColorAnimation/master/art/sample.gif>
 
