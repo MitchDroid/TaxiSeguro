@@ -2,6 +2,8 @@
 
 <h2>GuideBackgroundColorAnimation</h2>
 
+https://github.com/TaurusXi/GuideBackgroundColorAnimation
+
 =====================================
 
 <img src=https://raw.githubusercontent.com/TaurusXi/GuideBackgroundColorAnimation/master/art/sample.gif>
