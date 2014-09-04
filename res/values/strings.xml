@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Taxi seguro</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_zoom_fragment">ZoomFragment</string>
+    <string name="title_activity_main">Taxi seguro</string>
+    <string name="opt_calculator">Calculadora</string>
+    <string name="opt_my_rute">Mi ruta</string>
+    <string name="opt_taxi_search">Taxi Seguro</string>
+    <string name="opt_more">Más opciones</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_search">Buscar</string>
+    <string name="title_activity_calculator">Calculadora</string>
+    <string name="title_activity_manual">ManualActivity</string>
+    <string name="txt_btn_gotit">Entendido</string>
+    <string name="title_activity_taxi_seguro">TaxiSeguroActivity</string>
+
+</resources>

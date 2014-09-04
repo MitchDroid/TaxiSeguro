@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.app.taxiseguro.MainActivity" >
+
+    <!-- Search, should appear as action button -->
+    <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/ic_action_search"
+        app:showAsAction="ifRoom"
+        android:title="@string/action_search"/>
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never"/>
+    
+     <item
+        android:id="@+id/action_calculator"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_lopt_calc"
+        android:title="@string/opt_calculator"
+        app:showAsAction="always"/>
+
+</menu>

@@ -1,0 +1,24 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.app.taxiseguro.fragments.MapFragment" >
+
+    <FrameLayout
+        android:id="@+id/content_map"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@null" >
+    </FrameLayout>
+
+    <!-- Simulate marker GroundLayout -->
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:contentDescription="@string/app_name"
+        android:gravity="center"
+        android:src="@drawable/map_pin" />
+
+</RelativeLayout>
