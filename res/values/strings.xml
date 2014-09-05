@@ -17,5 +17,7 @@
     <string name="title_activity_manual">ManualActivity</string>
     <string name="txt_btn_gotit">Entendido</string>
     <string name="title_activity_taxi_seguro">TaxiSeguroActivity</string>
+    
+    <string name="tittle_calculator">Ingresa las unidades del taxímetro para calcular la tarifa</string>
 
 </resources>

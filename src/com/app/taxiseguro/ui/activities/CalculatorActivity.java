@@ -4,20 +4,26 @@ import com.app.taxiseguro.R;
 import com.app.taxiseguro.R.id;
 import com.app.taxiseguro.R.layout;
 import com.app.taxiseguro.R.menu;
+import com.app.taxiseguro.application.TaxiSeguroApplication;
 import com.app.taxiseguro.ui.fragments.CalculatorFragment;
 
 import android.support.v7.app.ActionBarActivity;
 import android.support.v7.app.ActionBar;
 import android.support.v4.app.Fragment;
+import android.text.style.TypefaceSpan;
+import android.graphics.Typeface;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
 import android.os.Build;
 
 public class CalculatorActivity extends ActionBarActivity {
+
+	private TextView txt_tittle;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -27,19 +33,20 @@ public class CalculatorActivity extends ActionBarActivity {
 			getSupportFragmentManager().beginTransaction()
 					.add(R.id.container, new CalculatorFragment()).commit();
 		}
-		
+
 		getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 		getSupportActionBar().setHomeButtonEnabled(true);
 	}
 
-//	@Override
-//	public boolean onCreateOptionsMenu(Menu menu) {
-//		// Inflate the menu; this adds items to the action bar if it is present.
-//		getMenuInflater().inflate(R.menu.calculator, menu);
-//		return true;
-//	}
-//
-//	@Override
+	@Override
+	public boolean onCreateOptionsMenu(Menu menu) {
+		// Inflate the menu; this adds items to the action bar if it is present.
+		getMenuInflater().inflate(R.menu.calculator, menu);
+		return true;
+	}
+
+	//
+	// @Override
 	public boolean onOptionsItemSelected(MenuItem item) {
 		// Handle action bar item clicks here. The action bar will
 		// automatically handle clicks on the Home/Up button, so long

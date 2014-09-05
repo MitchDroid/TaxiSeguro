@@ -291,22 +291,16 @@ public class NavigationDrawerFragment extends Fragment {
 		// See also
 		// showGlobalContextActionBar, which controls the top-left area of the
 		// action bar.
-		if (mDrawerLayout != null && isDrawerOpen()) {
-			inflater.inflate(R.menu.global, menu);
-			showGlobalContextActionBar();
-		}
+//		if (mDrawerLayout != null && isDrawerOpen()) {
+//			inflater.inflate(R.menu.global, menu);
+//			showGlobalContextActionBar();
+//		}
 		super.onCreateOptionsMenu(menu, inflater);
 	}
 
 	@Override
 	public boolean onOptionsItemSelected(MenuItem item) {
 		if (mDrawerToggle.onOptionsItemSelected(item)) {
-			return true;
-		}
-
-		if (item.getItemId() == R.id.action_search) {
-			Toast.makeText(getActivity(), "Search action.", Toast.LENGTH_SHORT)
-					.show();
 			return true;
 		}
 

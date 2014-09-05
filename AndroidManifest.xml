@@ -33,7 +33,7 @@
             android:value="@integer/google_play_services_version" />
 
         <activity
-            android:name=".TaxiSeguroActivity"
+            android:name="com.app.taxiseguro.ui.activities.TaxiSeguroActivity"
             android:label="@string/title_activity_taxi_seguro" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -63,14 +63,14 @@
             android:label="@string/title_activity_calculator" >
         </activity>
         <activity
-            android:name=".ManualActivity"
+            android:name="com.app.taxiseguro.ui.activities.ManualActivity"
             android:label="@string/title_activity_manual" >
         </activity>
     </application>
 
     <!--
      To retrieve OAuth 2.0 tokens or invalidate tokens to disconnect a user. This disconnect
-     option is required to comply with the Google+ Sign-In developer policies
+     option is required to comply with the Google+ Sign-In developer policies
     -->
     <uses-permission android:name="android.permission.USE_CREDENTIALS" />
 

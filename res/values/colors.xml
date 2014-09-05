@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="background">@color/gray_light</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00ffff</color>
+    <color name="gray_dark">#AAAAAA</color>
+    <color name="gray_light">#F1F1F1</color>
+    <color name="gray_item_id_background">#EBEBEB</color>
+    <color name="gray_title">#323232</color>
+    <color name="gray_subtitle">#666666</color>
+    <color name="gray_dark_text">#6E6E6E</color>
+    <color name="gray_button">#9A9A9A</color>
+    <color name="gray_light_button_background">#F3F3F3</color>
+    <color name="gray_dark_button_background">@color/gray_subtitle</color>
+    <color name="gray_item_title">@color/left_menu_background</color>
+    <color name="gray_middle">#CCCCCC</color>
+
+    <!-- verificar este codigo de color -->
+    <!-- <color name="gray_light_text">#6E6E6E</color> -->
+
+    <color name="light_green">#BEDC48</color>
+    <color name="green">#AFC846</color>
+    <color name="green_alpha">#EEAFC846</color>
+    <color name="green_alpha_stripbar">#22AFC846</color>
+    <color name="blue">#5160BB</color>
+    <color name="blue_alpha">#EE5160BB</color>
+    <color name="orange">#FEBA35</color>
+    <color name="separator">#DEDEDE</color>
+    <color name="red">#c20707</color>
+    <color name="left_menu_background">#444444</color>
+    <color name="left_menu_header_separator">#4F61C7</color>
+    <color name="stripbar_background">#FFFFFF</color>
+
+</resources>

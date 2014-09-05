@@ -1,5 +1,8 @@
-package com.app.taxiseguro;
+package com.app.taxiseguro.ui.activities;
 
+import com.app.taxiseguro.R;
+import com.app.taxiseguro.R.id;
+import com.app.taxiseguro.R.layout;
 import com.app.taxiseguro.ui.fragments.ManualFragment;
 import com.app.taxiseguro.utils.IntentHelper;
 

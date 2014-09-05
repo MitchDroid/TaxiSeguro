@@ -1,16 +1,25 @@
 package com.app.taxiseguro.ui.fragments;
 
+import javax.crypto.Mac;
+
 import com.app.taxiseguro.R;
+import com.app.taxiseguro.application.TaxiSeguroApplication;
+import com.app.taxiseguro.ui.activities.TaxiSeguroActivity;
 
 import android.app.Activity;
+import android.graphics.Typeface;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
 
 public class CalculatorFragment extends Fragment {
+	
+	private Activity mActivity;
 
 	public CalculatorFragment() {
 		// TODO Auto-generated constructor stub
@@ -22,8 +31,12 @@ public class CalculatorFragment extends Fragment {
 
 		View rootView = inflater.inflate(R.layout.fragment_calculator,
 				container, false);
+		
+	
 		return  rootView;
 	}
+	
+
 
 	@Override
 	public void onActivityCreated(@Nullable Bundle savedInstanceState) {
@@ -39,8 +52,12 @@ public class CalculatorFragment extends Fragment {
 
 	@Override
 	public void onAttach(Activity activity) {
-		// TODO Auto-generated method stub
 		super.onAttach(activity);
+		try {
+			mActivity = activity;
+		} catch (Exception e) {
+			Log.e("CalculatorFragment", CalculatorFragment.class.getName(), e);
+		}
 	}
 
 }
