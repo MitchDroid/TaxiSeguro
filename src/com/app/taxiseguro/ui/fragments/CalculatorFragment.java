@@ -5,6 +5,7 @@ import javax.crypto.Mac;
 import com.app.taxiseguro.R;
 import com.app.taxiseguro.application.TaxiSeguroApplication;
 import com.app.taxiseguro.ui.activities.TaxiSeguroActivity;
+import com.beardedhen.androidbootstrap.FontAwesomeText;
 
 import android.app.Activity;
 import android.graphics.Typeface;
@@ -18,7 +19,7 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 public class CalculatorFragment extends Fragment {
-	
+
 	private Activity mActivity;
 
 	public CalculatorFragment() {
@@ -31,12 +32,9 @@ public class CalculatorFragment extends Fragment {
 
 		View rootView = inflater.inflate(R.layout.fragment_calculator,
 				container, false);
-		
-	
-		return  rootView;
-	}
-	
 
+		return rootView;
+	}
 
 	@Override
 	public void onActivityCreated(@Nullable Bundle savedInstanceState) {

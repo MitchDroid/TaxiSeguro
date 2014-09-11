@@ -1,16 +1,20 @@
 package com.app.taxiseguro.ui.activities;
 
+import uk.co.chrisjenx.calligraphy.CalligraphyContextWrapper;
+
 import com.app.taxiseguro.R;
 import com.app.taxiseguro.R.id;
 import com.app.taxiseguro.R.layout;
 import com.app.taxiseguro.R.menu;
 import com.app.taxiseguro.application.TaxiSeguroApplication;
 import com.app.taxiseguro.ui.fragments.CalculatorFragment;
+import com.beardedhen.androidbootstrap.FontAwesomeText;
 
 import android.support.v7.app.ActionBarActivity;
 import android.support.v7.app.ActionBar;
 import android.support.v4.app.Fragment;
 import android.text.style.TypefaceSpan;
+import android.content.Context;
 import android.graphics.Typeface;
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -34,8 +38,16 @@ public class CalculatorActivity extends ActionBarActivity {
 					.add(R.id.container, new CalculatorFragment()).commit();
 		}
 
+	
+
+		
 		getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 		getSupportActionBar().setHomeButtonEnabled(true);
+	}
+
+	@Override
+	protected void attachBaseContext(Context newBase) {		
+		super.attachBaseContext(new CalligraphyContextWrapper(newBase));
 	}
 
 	@Override
